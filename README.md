@@ -35,8 +35,6 @@ j) a → a
 3. Reescribir cada una de las siguientes definiciones sin usar let, where o if:
 a) f x = let (y,z) = (x,x) in y
 b) greater (x,y) = if x > y then True else False
-Práctica 1
-Página 1AyED Avanzadas
 c) f (x,y) = let z = x + y in g (z,y) where g (a,b) = a − b
 
 4. Suponiendo que f y g tienen los siguientes tipos
@@ -77,8 +75,6 @@ j) letras, que dada una lista de caracteres, devuelve la lista de aquellos que s
 (minúsculas o mayúsculas)
 k) masDe, que dada una lista de listas xss y un número n, devuelve la lista de aquellas listas
 de xss con longitud mayor que n
-Práctica 1
-Página 2AyED Avanzadas
 
 7. El producto escalar de dos listas de enteros de igual longitud es la suma de los productos de
 los elementos sucesivos (misma posición) de ambas listas. Usando listas por comprensión defina
